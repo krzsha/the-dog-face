@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10rem; /* Space for fixed header */
+}
+
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 2rem; /* Below the top bar */
+    left: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    line-height: 1; /* Adjust this to decrease space between lines */
+    margin-left: 10px
+}
+
+header .logo span {
+    display: block;
+    line-height: 1; 
+    margin: -0.2rem 0; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 20px;
+}
+
+.search-login input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-login a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product {
+    display: inline-block;
+    width: 22%;
+    margin: 1.5%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.product img {
+    width: 100%;
+    height: 260px;
+}
+
+.product h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.product p {
+    margin: 0.5rem 0 1rem;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.hero {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.Featuredproducts {
+    display: flex;
+    justify-content: space-around; /* Adjusts the spacing between the products */
+    flex-wrap: wrap;
+    
+}
+
+header .logo a {
+    text-decoration: none;
+    color: inherit; /* Ensures the link inherits the color of its parent */
+}
