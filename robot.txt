@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /private
 Allow: /
 
-Sitemap: 
+Sitemap: https://krzsha.github.io/the-dog-face/sitemap.xml
